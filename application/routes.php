@@ -109,3 +109,7 @@ Route::filter('auth', function()
 {
 	if (Auth::guest()) return Redirect::to('login');
 });
+
+include 'routes1.php';//yang
+include 'routes2.php';//dp
+include 'routes3.php';//lu
