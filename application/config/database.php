@@ -74,7 +74,7 @@ return array(
 			'username' => 'dengpengks',
 			'password' => 'dp111912',
 			'charset'  => 'utf8',
-			'prefix'   => '',
+			'prefix'   => 'g_',
 		),
 
 		'pgsql' => array(
