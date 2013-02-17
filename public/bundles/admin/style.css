@@ -6,7 +6,13 @@
         Purpose of the stylesheet follows.
 */
 
-root { 
-    display: block;
+.login{
+    margin: 0 auto;
+    width: 400px;
+    margin-top: 200px;
+    padding:20px;
+    border: 1px solid #8CBF3D;
 }
-
+.login .form-horizontal .controls{
+    margin-left: 50px;
+}

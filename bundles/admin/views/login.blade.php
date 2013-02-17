@@ -7,9 +7,11 @@
 	<meta name="viewport" content="width=device-width">
 
 	{{ HTML::style(URL::$base.'/bundles/admin/bootstrap.css') }}
+        {{ HTML::style(URL::$base.'/bundles/admin/style.css') }}
 
 </head>
 <body>
+    <div class="login">
     <form class="form-horizontal">
   <div class="control-group">
     <label class="control-label" for="inputEmail">用户名</label>
@@ -30,5 +32,6 @@
     </div>
   </div>
 </form>
+    </div>
 </body>
 </html>

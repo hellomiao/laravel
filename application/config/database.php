@@ -69,10 +69,10 @@ return array(
 
 		'mysql' => array(
 			'driver'   => 'mysql',
-			'host'     => 'dengpengks.gotoftp3.com',
-			'database' => 'dengpengks',
-			'username' => 'dengpengks',
-			'password' => 'dp111912',
+			'host'     => '192.154.96.183',
+			'database' => 'guodouya',
+			'username' => 'root',
+			'password' => '2ms7my00',
 			'charset'  => 'utf8',
 			'prefix'   => 'g_',
 		),
