@@ -1,7 +1,11 @@
 # [Laravel](http://laravel.com) - A PHP Framework For Web Artisans
 
-登录测试 www.guo.me/login qqucx@163.com 123456 获取用户信息Auth::user()->id
-
+登录测试 www.guo.me/login qqucx@163.com 123456 获取用户信息
+```php
+<?php
+Auth::user()->id
+?>
+```
 [Official Website & Documentation](http://laravel.com)
 
 ## Feature Overview
