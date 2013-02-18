@@ -8,17 +8,15 @@ Auth::user()->id
 ```
 [Official Website & Documentation](http://laravel.com)
 
-## Feature Overview
+## 控制器过滤器
 
-- Simple routing using Closures or controllers.
-- Views and templating.
-- Driver based session and cache handling.
-- Database abstraction with query builder.
-- Authentication.
-- Migrations.
-- PHPUnit Integration.
-- A lot more.
-
+```php
+<?php
+ public function __construct() {
+        $this->filter('before', 'auth')->only(array('index', 'home'));
+    }
+?>
+```
 ## A Few Examples
 
 ### Hello World:
