@@ -61,7 +61,8 @@ Event::listen('500', function()
 {
 	return Response::error('500');
 });
-
+Route::controller(Controller::detect());
+Route::controller(Controller::detect('admin'));
 /*
 |--------------------------------------------------------------------------
 | Route Filters
@@ -108,6 +109,7 @@ Route::filter('csrf', function()
 Route::filter('auth', function()
 {
 	if (Auth::guest()) return Redirect::to('login');
+        
 });
 
 include 'routes1.php';//yang

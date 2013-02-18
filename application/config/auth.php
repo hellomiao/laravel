@@ -69,5 +69,7 @@ return array(
 	*/
 
 	'table' => 'users',
+    
+    
 
 );
