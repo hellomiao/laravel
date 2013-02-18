@@ -19,3 +19,5 @@ $email = Auth::user->email;
     }
 ?>
 ```
+
+###获取域名 Config::get('application.url')
