@@ -3,7 +3,9 @@
 登录测试 www.guo.me/login qqucx@163.com 123456 获取用户信息
 ```php
 <?php
-Auth::user()->id
+
+$id=Auth::user()->id
+$email = Auth::user->email;
 ?>
 ```
 [Official Website & Documentation](http://laravel.com)
