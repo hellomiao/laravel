@@ -1,9 +1,6 @@
 # [Laravel](http://laravel.com) - A PHP Framework For Web Artisans
 
-Laravel is a clean and classy framework for PHP web development. Freeing you
-from spaghetti code, Laravel helps you create wonderful applications using
-simple, expressive syntax. Development should be a creative experience that you
-enjoy, not something that is painful. Enjoy the fresh air.
+登录测试 www.guo.me/login qqucx@163.com 123456 获取用户信息Auth::user()->id
 
 [Official Website & Documentation](http://laravel.com)
 
